@@ -1,0 +1,9 @@
+Package: rip.bongs.golfblitzipadtextureloader
+Name: Golf Blitz iPad Texture Loader
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Mark Kuebel
+Author: Mark Kuebel
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
