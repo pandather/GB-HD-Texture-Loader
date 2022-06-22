@@ -3,7 +3,7 @@
 %hook CCFileUtils
 
 - (void)setSearchResolutionsOrder:(id)arg1 {
-  NSArray *nsArray = [NSArray arrayWithObjects:@"ipadhd", @"iphone5hd", @"ipad",		 @"hd", @"iphone5", @"iphone", @"default", nil];
+  NSArray *nsArray = [NSArray arrayWithObjects:@"ipadhd", @"iphone5hd", @"ipad", @"hd", @"iphone5", @"iphone", @"default", nil];
   %orig(nsArray);
 }
 
